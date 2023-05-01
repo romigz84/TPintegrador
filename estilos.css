@@ -1,4 +1,10 @@
 
+.navbar.bg-body-tertiary{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-color: rgb(65, 64, 64);
+}
+
 div.container-fluid {
     background-color: rgb(65, 64, 64);
     padding: 0%;
@@ -75,7 +81,6 @@ div.row.row-cols-1.row-cols-md-3.g-4{
     height: 350px;
 
 }
-
 
 a.btn{
   font-size: 10px;
