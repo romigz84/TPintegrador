@@ -4,6 +4,17 @@ div.container-fluid {
     padding: 0%;
    
 }
+:hover.nav-link.active{
+    color: black;
+}
+:hover.nav-link.bs-link-opacity{
+    color: black;
+}
+:hover.nav-link.bs-link-color-rgb{
+    color: black;
+}
+
+
 
 a.navbar-brand{ 
     
@@ -107,3 +118,19 @@ a.nav-link{
     text-align: center !important;
 }
 
+
+
+
+@media (min-width: 576px) { }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) { }
+
+
+@media (min-width: 1400px) {  }
