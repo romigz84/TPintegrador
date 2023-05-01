@@ -4,6 +4,8 @@ div.container-fluid {
     padding: 0%;
    
 }
+
+
 :hover.nav-link.active{
     color: black;
 }
@@ -60,8 +62,13 @@ div.carousel-caption{
 .oradores{
     text-align: center;
     font-size: 15px;
+    
 }
 
+div.row.row-cols-1.row-cols-md-3.g-4{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 .card-img-top{
     width: 100px;
