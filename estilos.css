@@ -5,12 +5,12 @@
     background-color: rgb(65, 64, 64);
 }
 
+
 div.container-fluid {
     background-color: rgb(65, 64, 64);
     padding: 0%;
    
 }
-
 
 :hover.nav-link.active{
     color: black;
@@ -22,15 +22,12 @@ div.container-fluid {
     color: black;
 }
 
-
-
 a.navbar-brand{ 
-    
+ 
     font-size: 15px;
     background-color: rgb(65, 64, 64);
     color: white;
     font-size: 20px;
-   
     
 }
 
@@ -120,7 +117,7 @@ div.row{
     color: white;
 }
 
-.nav.justify-content-center{
+.nav.justify-content-center{ 
     background-color: #1D3947 ;
     height: 80px;
  
