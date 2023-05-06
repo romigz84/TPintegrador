@@ -3,6 +3,7 @@
     padding-top: 0%;
     padding-bottom: 0%;
     background-color: rgb(65, 64, 64);
+    
 }
 
 
@@ -57,11 +58,6 @@ div.carousel-caption{
     font-weight:400;
 }
 
-.btn{
-    height: max-content;
-    width: max-content;
-}
-
 .oradores{
     text-align: center;
     font-size: 15px;
@@ -78,17 +74,6 @@ div.row.row-cols-1.row-cols-md-3.g-4{
     height: 350px;
 
 }
-
-a.btn{
-  font-size: 10px;
-  
-}
-
-div.row{
-    padding-right: 0%;
-    padding-left: 0%;
-}
-
 
 .card.mb-6{
     
@@ -119,7 +104,9 @@ div.row{
 
 .nav.justify-content-center{ 
     background-color: #1D3947 ;
-    height: 80px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+     height: 100%; 
  
 }
 a.nav-link{
@@ -129,17 +116,3 @@ a.nav-link{
 
 
 
-
-@media (min-width: 576px) { }
-
-
-@media (min-width: 768px) {  }
-
-
-@media (min-width: 992px) {  }
-
-
-@media (min-width: 1200px) { }
-
-
-@media (min-width: 1400px) {  }
