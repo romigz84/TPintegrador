@@ -118,5 +118,22 @@ a.nav-link{
     text-align: center !important;
 }
 
+/* Estilos de Comprar-ticket.html */
+
+section.tickets{
+    padding-left:20%;
+   
+}
+
+section.oradores2{
+    text-align: center;
+}
+/* 
+div.btn-group.btn-group-justified{
 
 
+} */
+button.btn.btn-bg{
+    margin-right: 2%;
+    border-bottom-right-radius:initial;
+}
