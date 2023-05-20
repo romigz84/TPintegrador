@@ -125,15 +125,42 @@ section.tickets{
    
 }
 
+div.card.card1{
+    border-color: #007BFF;
+}
+
+div.card.card2{
+    border-color: #17A2B8;
+}
+
+div.card.card3{
+    border-color: #FFC107;
+}
+
 section.oradores2{
     text-align: center;
 }
-/* 
-div.btn-group.btn-group-justified{
 
+div.resultado{
+    color: #004085;
+    background-color: #CCE5FF;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    /* width: 95%; */
 
-} */
-button.btn.btn-bg{
+}
+p.total{
+    padding-top: 1rem;
+}
+
+button.btn.btn-bg.boton1{
     margin-right: 2%;
-    border-bottom-right-radius:initial;
+    margin-left: 2%;
+    
+}
+button.bs.btn.border.radius{
+    border-radius: 0.40rem;
 }
