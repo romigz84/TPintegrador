@@ -122,6 +122,7 @@ a.nav-link{
 
 section.tickets{
     padding-left:20%;
+    margin-top: 20px;
    
 }
 
@@ -164,3 +165,4 @@ button.btn.btn-bg.boton1{
 button.bs.btn.border.radius{
     border-radius: 0.40rem;
 }
+
