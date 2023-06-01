@@ -150,13 +150,16 @@ div.resultado{
     border-radius: 5px;
     /* padding-left: 5%;
     padding-right: 5%; */
-    /* width: 95%; */
+    width: 98%;
+    padding: 10px;
+    
 
 }
-p.total{
+#resultado{
     padding-top: 1rem;
+    width: 50%;
 }
-
+/* 
 button.btn.btn-bg.boton1{
     margin-right: 2%;
     margin-left: 2%;
@@ -164,5 +167,9 @@ button.btn.btn-bg.boton1{
 }
 button.bs.btn.border.radius{
     border-radius: 0.40rem;
-}
+} */
 
+button.btn.btn-bg{
+
+width: 49%;
+}
