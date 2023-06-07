@@ -9,27 +9,27 @@ const cantidad = document.querySelector('#cantidad');
 const categoria = document.querySelector('#categoria');
 // categoria.addEventListener('click';categoria2)
 
-function precioticket(evento){
+function precioticket(evento) {
     evento.preventDefault();
-    if (Number(cantidad.value)){
+    if (Number(cantidad.value)) {
         let pagototal
-        switch(categoria.value){
+        switch (categoria.value) {
             case "estudiante": {
-                pagototal = 200*cantidad.value*0.20;
+                pagototal = 200 * cantidad.value * 0.20;
                 break;
             }
             case "trainee": {
-                    pagototal = 200*cantidad.value*0.50;
+                pagototal = 200 * cantidad.value * 0.50;
                 break;
             }
             case "junior": {
-                    pagototal = 200*cantidad.value*0.85
+                pagototal = 200 * cantidad.value * 0.85
                 break;
             }
-            }
-            resultados.innerHTML=pagototal
         }
+        resultados.innerHTML = pagototal
     }
+}
 
 
 
