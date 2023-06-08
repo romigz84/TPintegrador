@@ -8,6 +8,9 @@ const cantidad = document.querySelector('#cantidad');
 // cantidad.addEventListener('click';cantidad2)
 const categoria = document.querySelector('#categoria');
 // categoria.addEventListener('click';categoria2)
+const borrar = document.querySelector('#borrar');
+borrar.addEventListener('click', limpiarFormulario);
+
 
 function precioticket(evento) {
     evento.preventDefault();
@@ -27,9 +30,29 @@ function precioticket(evento) {
                 break;
             }
         }
+      
         resultados.innerHTML = pagototal
+        
     }
+    if (nombre.value.length=="" && apellido.value.length=="" && correo.value.length=="") {
+        alert("Debe ingresar los datos")
+            resultados.innerHTML="Debe completar los campos obligatorios"
+        }
+   
 }
 
 
+function limpiarFormulario() {
+    resultados.innerHTML = "";
+    document.getElementById(".formulario").reset();
+   
+  } 
+
+  const nombre = document.querySelector('#nombre');
+  const apellido = document.querySelector('#apellido');
+  const correo = document.querySelector('#exampleFormControlInput1')
+
+
+//   if (nombre.value == "") {
+//     alert("Debe ingresar el Nombre")}
 
