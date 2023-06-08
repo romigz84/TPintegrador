@@ -186,5 +186,15 @@ button.bs.btn.border.radius{
 
 button.btn.btn-bg {
 
+    width: 100%;
+}
+button#resumen.btn.btn-bg {
+    display: inline-block;
+    
+    width: 49%;
+}
+button#borrar.btn.btn-bg {
+    display: inline-block;
+    
     width: 49%;
 }
