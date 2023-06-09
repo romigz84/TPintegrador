@@ -1,13 +1,7 @@
-// const estudiante = document.querySelector('#estudiante');
-// const trainee    = document.querySelector('#trainee');
-// const junior = document.querySelector('#junior');
 const resultados = document.querySelector('#resultado'); //es el P
 const resumen = document.querySelector('#resumen'); // es el boton
-resumen.addEventListener('click', precioticket);
 const cantidad = document.querySelector('#cantidad');
-// cantidad.addEventListener('click';cantidad2)
 const categoria = document.querySelector('#categoria');
-// categoria.addEventListener('click';categoria2)
 const borrar = document.querySelector('#borrar');
 borrar.addEventListener('click', limpiarFormulario);
 

@@ -83,47 +83,47 @@
     <h3>VALOR DEL TICKET $200</h3>
   </section>
 
-  <section >
-    <form action=""id="formulario" method="post">
-    <div class="row mx-auto p-2">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="nombre" required>
+  <section>
+    <form action="" id="formulario" method="post">
+      <div class="row mx-auto p-2">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="nombre" required>
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" id="apellido" required>
+        </div>
       </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" id="apellido" required>
+      <div class="row mx-auto p-2">
+        <div class="col mb-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo" required>
+        </div>
       </div>
-    </div>
-    <div class="row mx-auto p-2">
-      <div class="col mb-3">
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo" required>
-      </div>
-    </div>
-    <div class="row mx-auto p-2">
-      <div class="col">
-        <p>Cantidad</p>
-        <input label="cantidad" type="number" min="1" max="20" class="form-control" placeholder="cantidad"
-          id="cantidad">
-      </div>
-      <div class="col mb-3">
-        <p>Categoria</p>
-        <select label="categoria" class="form-control" id="categoria">
-          <option value="sincategoria" id="sin categoria" selected>Sin Categoria</option>
-          <option value="estudiante" class="categoria" id="estudiante">Estudiante</option>
-          <option value="trainee" class="categoria" id="trainee">Trainee</option>
-          <option value="junior" class="categoria" id="junior">Junior</option>
-        </select>
-      </div>
+      <div class="row mx-auto p-2">
+        <div class="col">
+          <p>Cantidad</p>
+          <input label="cantidad" type="number" min="1" max="20" class="form-control" placeholder="cantidad"
+            id="cantidad">
+        </div>
+        <div class="col mb-3">
+          <p>Categoria</p>
+          <select label="categoria" class="form-control" id="categoria">
+            <option value="sincategoria" id="sin categoria" selected>Sin Categoria</option>
+            <option value="estudiante" class="categoria" id="estudiante">Estudiante</option>
+            <option value="trainee" class="categoria" id="trainee">Trainee</option>
+            <option value="junior" class="categoria" id="junior">Junior</option>
+          </select>
+        </div>
 
-      <div class="total">
-        <p type="text" class="parrafo">Total a Pagar: $ </p>
-        <p type="reset" id="resultado"></p>
-      </div>
+        <div class="total">
+          <p type="text" class="parrafo">Total a Pagar: $ </p>
+          <p type="reset" id="resultado"></p>
+        </div>
 
 
-      <div class="button">
-        <button class="btn btn-bg  " type="reset" id="borrar">Borrar</button>
-        <button class="btn btn-bg  " type="button " id="resumen">Resumen</button>
-      </div>
+        <div class="button">
+          <button class="btn btn-bg  " type="reset" id="borrar">Borrar</button>
+          <button class="btn btn-bg  " type="button " id="resumen">Resumen</button>
+        </div>
     </form>
   </section>
 
